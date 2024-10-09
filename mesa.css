@@ -85,3 +85,18 @@
     background: url("planta.jpeg") no-repeat;
    
  }
+
+ .texto{
+    padding-top:30px ;
+    width: 60%;
+    position: relative;
+    left: 20%;
+ }
+
+ span{
+    color: green;
+ }
+
+ p{
+    font-size: 18px;
+ }
