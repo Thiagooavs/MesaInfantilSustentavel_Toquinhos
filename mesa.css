@@ -122,6 +122,25 @@
   
  }
 
+ .def .inf{
+  margin-top: 25px;
+  padding:10px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+ 
+  border-radius: 20px;
+
+
+  justify-content: center;
+ }
+
+ .inf .cartao{
+  width: 60%;
+  position: relative;
+  left: 20%;
+ }
+
  .tex .minititulo{
  
   width: 30%;
@@ -197,7 +216,7 @@
   color: green;
  }
 
- .card {
+ .cartao {
   width: fit-content;
   height: fit-content;
   background-color: rgb(238, 238, 238);
@@ -206,7 +225,8 @@
   justify-content: center;
   padding: 25px 25px;
   gap: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 /* for all social containers*/
@@ -221,22 +241,22 @@
   transition-duration: .3s;
 }
 /* instagram*/
-.containerOne:hover {
+.containerUm:hover {
   background-color: #d62976;
   transition-duration: .3s;
 }
 /* twitter*/
-.containerTwo:hover {
+.containerDois:hover {
   background-color: #00acee;
   transition-duration: .3s;
 }
 /* linkdin*/
-.containerThree:hover {
+.containerTres:hover {
   background-color: #0072b1;
   transition-duration: .3s;
 }
 /* Whatsapp*/
-.containerFour:hover {
+.containerQuatro:hover {
   background-color: #128C7E;
   transition-duration: .3s;
 }
